@@ -108,3 +108,17 @@ a {
 .three a {
     color: var(--very-dark-cyan);
 }
+
+@media (min-width: 850px) {
+    .add-ons {
+        display: flex;
+    }
+
+    .card.one {
+        border-radius: 14px 0 0 14px;
+    }
+
+    .card.three {
+        border-radius: 0 0 14px 14px;
+    }
+}
