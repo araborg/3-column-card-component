@@ -39,6 +39,8 @@ p,
 a {
     font-family: var(--body-font);
     font-weight: 400;
+
+    border: 2px solid red;
 }
 
 /* Layout */
@@ -56,15 +58,15 @@ a {
 }
 
 .card {
-    padding: 4em 3.2em;
-
-    /* border: 2px solid red; */
+    padding: 4em 2em;
 
     color: var(--transparent-white);
 }
 
 .card-body {
-    /* width: 90%; */
+    width: 95%;
+
+    margin: 2.5em 0;
 
     line-height: 1.6;
 }
@@ -83,4 +85,24 @@ a {
     background-color: var(--very-dark-cyan);
 
     border-radius: 0 0 14px 14px;
+}
+
+a {
+    background-color: var(--transparent-white);
+
+    text-decoration: none;
+
+    padding: 0.5em;
+}
+
+.one a {
+    color: var(--right-orange);
+}
+
+.two a {
+    color: var(--dark-cyan);
+}
+
+.three a {
+    color: var(--very-dark-cyan);
 }
