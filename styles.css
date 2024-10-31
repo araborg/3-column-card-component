@@ -9,7 +9,8 @@
     /* background, headings, buttons */
     --very-light-gray: hsl(0, 0%, 95%);
 
-    --font-size: 15px;
+    /* --font-size: 15px; */
+    --font-size: 0.9375rem;
 
     --heading-font: "Lexend Deca", sans-serif;
     --body-font: "Big Shoulders Display", sans-serif;
@@ -18,7 +19,7 @@
 /* Typography */
 
 html {
-    font-size: 0.9375rem;
+    font-size: var(--font-size);
 }
 
 body {
