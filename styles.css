@@ -40,7 +40,7 @@ a {
     font-family: var(--body-font);
     font-weight: 400;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* Layout */
@@ -92,7 +92,9 @@ a {
 
     text-decoration: none;
 
-    padding: 0.5em;
+    padding: 0.5em 1em;
+
+    border-radius: 1em;
 }
 
 .one a {
