@@ -68,4 +68,13 @@ main {
 }
 
 .card.one {
+    background-color: var(--right-orange);
+}
+
+.card.two {
+    background-color: var(--dark-cyan);
+}
+
+.card.three {
+    background-color: var(--very-dark-cyan);
 }
