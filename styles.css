@@ -30,4 +30,6 @@ Body Copy
 
     /* background, headings, buttons */
     --very-light-gray: hsl(0, 0%, 95%);
+
+    --font-size: 15px;
 }
