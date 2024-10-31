@@ -32,4 +32,7 @@ Body Copy
     --very-light-gray: hsl(0, 0%, 95%);
 
     --font-size: 15px;
+
+    --heading-font: "Lexend Deca", sans-serif;
+    --body-font: "Big Shoulders Display", sans-serif;
 }
