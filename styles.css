@@ -119,6 +119,6 @@ a {
     }
 
     .card.three {
-        border-radius: 0 0 14px 14px;
+        border-radius: 0 14px 14px 0;
     }
 }
