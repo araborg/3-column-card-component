@@ -44,6 +44,12 @@ a {
 }
 
 /* Layout */
+.container {
+    width: 90%;
+    max-width: 900px;
+
+    margin: auto;
+}
 
 .card-body {
     width: 95%;
