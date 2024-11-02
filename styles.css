@@ -44,11 +44,19 @@ a {
 }
 
 /* Layout */
+#main {
+    padding: 2em 0;
+}
+
 .container {
     width: 90%;
     max-width: 900px;
 
     margin: auto;
+}
+
+.add-ons {
+    color: var(--transparent-white);
 }
 
 .card-body {
@@ -57,6 +65,10 @@ a {
     padding: 2.5em 0;
 
     line-height: 1.6;
+}
+
+.card {
+    padding: 2em;
 }
 
 .card.one {
