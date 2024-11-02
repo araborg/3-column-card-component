@@ -54,7 +54,7 @@ a {
 }
 
 #main {
-    margin: 2em 0;
+    /* margin: 2em 0; */
 }
 
 .card {
@@ -139,7 +139,7 @@ a {
     }
 
     .card {
-        height: 80%;
+        /* height: 80%; */
     }
 
     .card.one {
