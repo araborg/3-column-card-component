@@ -26,6 +26,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    /* height: 100vw; */
 }
 
 h2 {
@@ -45,12 +47,18 @@ a {
 
 .container {
     width: 80%;
-    max-width: 1360px;
+    /* max-width: 1360px; */
+
+    max-width: 1000px;
 
     margin-left: auto;
     margin-right: auto;
 
     /* margin: auto; */
+}
+
+.add-ons {
+    padding: 2em 0;
 }
 
 #main {
@@ -66,7 +74,7 @@ a {
 .card-body {
     width: 95%;
 
-    margin: 2.5em 0;
+    padding: 2.5em 0;
 
     line-height: 1.6;
 }
@@ -74,7 +82,7 @@ a {
 .card.one {
     background-color: var(--right-orange);
 
-    border-radius: 14px 14px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .card.two {
@@ -84,7 +92,7 @@ a {
 .card.three {
     background-color: var(--very-dark-cyan);
 
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 10px 10px;
 }
 
 a {
@@ -113,29 +121,30 @@ a {
     body {
         border: 2px solid green;
 
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
 
-        justify-content: center;
+        justify-content: center; */
 
         /* width: 100vw; */
 
-        /* height: 100%; */
+        /* height: 50vw; */
     }
 
     #main {
+        height: 80vh;
         /* display: flex; */
         /* align-items: center; */
 
-        /* height: 80vh; */
-
-        margin-bottom: 2em;
+        /* margin-bottom: 2em; */
+        /* margin: 0; */
 
         border: 2px solid red;
     }
 
     .add-ons {
+        /* height: 80vh; */
         display: flex;
         /* align-items: center; */
     }
@@ -145,10 +154,10 @@ a {
     }
 
     .card.one {
-        border-radius: 14px 0 0 14px;
+        border-radius: 10px 0 0 10px;
     }
 
     .card.three {
-        border-radius: 0 14px 14px 0;
+        border-radius: 0 10px 10px 0;
     }
 }
