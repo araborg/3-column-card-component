@@ -34,7 +34,7 @@ h2 {
 
     font-size: 2rem;
 
-    margin: 0;
+    /* margin: 0; */
 }
 
 p,
@@ -68,9 +68,11 @@ a {
 .card-body {
     width: 95%;
 
-    padding: 2em 0 4em 0;
+    padding: 1.2em 0 4em 0;
 
     line-height: 1.6;
+
+    margin: 0;
 
     /* border: 2px solid white; */
 }
@@ -125,7 +127,7 @@ a {
     .card-body {
         width: 99%;
 
-        padding: 2.5em 0;
+        padding: 1em 0 6em 0;
 
         line-height: 1.6;
     }
