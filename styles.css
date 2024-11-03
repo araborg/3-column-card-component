@@ -72,7 +72,7 @@ a {
 }
 
 .card {
-    padding: 2em;
+    padding: 3em;
 }
 
 .card.one {
@@ -115,16 +115,16 @@ a {
 
 @media (min-width: 850px) {
     #main {
-        height: 80vh;
-        width: 100vw;
+        /* height: 80vh; */
+        /* width: 100vw; */
 
         /* margin: auto; */
     }
     .add-ons {
-        height: 80vh;
+        /* height: 80vh; */
 
         display: flex;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .card.one {
