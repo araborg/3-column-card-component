@@ -26,8 +26,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    /* height: 100vw; */
 }
 
 h2 {
@@ -54,8 +52,6 @@ a {
 
     margin-left: auto;
     margin-right: auto;
-
-    /* margin: auto; */
 }
 
 .add-ons {
@@ -73,8 +69,7 @@ a {
 
 .card {
     padding: 4em 3em;
-
-\}
+}
 
 .card.one {
     background-color: var(--right-orange);
@@ -119,12 +114,6 @@ a {
 }
 
 @media (min-width: 850px) {
-    #main {
-        /* height: 80vh; */
-        /* width: 100vw; */
-
-        /* margin: auto; */
-    }
     .add-ons {
         /* height: 80vh; */
 
