@@ -72,7 +72,7 @@ a {
 
     line-height: 1.6;
 
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .card.one {
@@ -123,7 +123,7 @@ a {
     }
 
     .card-body {
-        width: 98%;
+        width: 99%;
 
         padding: 2.5em 0;
 
