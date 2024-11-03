@@ -72,8 +72,9 @@ a {
 }
 
 .card {
-    padding: 3em;
-}
+    padding: 4em 3em;
+
+\}
 
 .card.one {
     background-color: var(--right-orange);
@@ -99,6 +100,10 @@ a {
     padding: 0.5em 1em;
 
     border-radius: 1em;
+
+    margin-bottom: 1em;
+
+    border: 2px solid white;
 }
 
 .one a {
