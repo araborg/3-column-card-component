@@ -117,23 +117,20 @@ a {
 
 @media (min-width: 850px) {
     body {
-        height: 100vh;
+        /* height: 100vh;
         width: 100vw;
 
-        overflow: hidden;
+        overflow: hidden; */
     }
 
     #main {
         height: 80vh;
         width: 100vw;
 
-        /* padding: 5; */
-
-        margin: auto;
+        /* margin: auto; */
     }
     .add-ons {
-        /* height: auto; */
-        height: 70vh;
+        height: 80vh;
 
         display: flex;
         align-items: center;
