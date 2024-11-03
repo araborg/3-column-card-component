@@ -67,6 +67,7 @@ a {
 
 .card-body {
     width: 95%;
+    height: 37%;
 
     padding: 1.2em 0 4em 0;
 
@@ -119,16 +120,15 @@ a {
     color: var(--very-dark-cyan);
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
     .container {
         width: 70%;
-        /* max-width: 700px; */
     }
-}
+} */
 
 @media (min-width: 850px) {
     .container {
-        width: 100%;
+        width: 90%;
         /* max-width: 900px; */
     }
 
@@ -136,8 +136,12 @@ a {
         display: flex;
     }
 
+    .card {
+        padding-bottom: 2em;
+    }
+
     .card-body {
-        width: 100%;
+        width: 99%;
 
         padding: 1em 0 6em 0;
 
