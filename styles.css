@@ -33,6 +33,10 @@ h2 {
     font-weight: 700;
 
     font-size: 2rem;
+
+    margin: 0;
+
+    border: 2px solid white;
 }
 
 p,
@@ -59,16 +63,18 @@ a {
     padding: 2em 0;
 }
 
+.card {
+    padding: 4em 3em;
+}
+
 .card-body {
     width: 95%;
 
-    padding: 2.5em 0;
+    padding: 2.5em 0 3.5em 0;
 
     line-height: 1.6;
-}
 
-.card {
-    padding: 4em 3em;
+    border: 2px solid white;
 }
 
 .card.one {
@@ -98,7 +104,7 @@ a {
 
     margin-bottom: 1em;
 
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .one a {
