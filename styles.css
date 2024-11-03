@@ -115,10 +115,19 @@ a {
 
 @media (min-width: 850px) {
     .add-ons {
-        /* height: 80vh; */
-
         display: flex;
-        /* align-items: center; */
+    }
+
+    .card-body {
+        width: 98%;
+
+        padding: 2.5em 0;
+
+        line-height: 1.6;
+    }
+
+    .card {
+        padding: 4em 3em;
     }
 
     .card.one {
