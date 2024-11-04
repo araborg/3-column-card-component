@@ -60,11 +60,13 @@ a {
 
 .card {
     padding: 4em 3em;
+
+    max-height: 40%;
 }
 
 .card-body {
     width: 95%;
-    height: 37%;
+    height: 35%;
 
     padding: 1.2em 0 4em 0;
 
@@ -113,6 +115,31 @@ a {
     color: var(--very-dark-cyan);
 }
 
+@media (min-width: 700px) {
+    .add-ons {
+        display: flex;
+    }
+
+    .card {
+        padding: 4em 3em;
+
+        max-height: 60%;
+    }
+
+    .card-body {
+        width: 95%;
+        height: 45%;
+    }
+
+    .card.one {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card.three {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
 @media (min-width: 850px) {
     .add-ons {
         display: flex;
@@ -133,13 +160,5 @@ a {
 
     .card {
         padding: 4em 3em;
-    }
-
-    .card.one {
-        border-radius: 10px 0 0 10px;
-    }
-
-    .card.three {
-        border-radius: 0 10px 10px 0;
     }
 }
