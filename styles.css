@@ -119,7 +119,7 @@ a {
 @media (min-width: 700px) {
     .container {
         width: 90%;
-        max-width: 400px;
+        max-width: 900px;
     }
 
     .add-ons {
